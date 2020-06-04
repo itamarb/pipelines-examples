@@ -3,14 +3,14 @@ resources:
   - name: be_gitRepo
     type: GitRepo
     configuration:
-      path: sdemo/java-backend
+      path: itamarb/pipelines-examples
       gitProvider: GitHub
  
   # Git repo for front-end source
   - name: fe_gitRepo
     type: GitRepo
     configuration:
-      path: sdemo/vue-frontend
+      path: itamarb/pipelines-examples
       gitProvider: GitHub
  
   # Build info for the application
